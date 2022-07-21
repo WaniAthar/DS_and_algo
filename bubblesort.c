@@ -20,7 +20,11 @@ int main()
 
     printf("Enter the size of array: ");
     scanf("%d", &n);
-    randomArray(arr, n);
+    // randomArray(arr, n);
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
     printf("\tBefore sorting: \n");
     display(arr, n);
     printf("\n");
